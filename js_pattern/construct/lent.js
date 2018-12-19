@@ -13,9 +13,10 @@ Article.prototype.getTitle = function () {
 
 function BlogPost(title) {
     //在子构造函数中直接以函数形式调用父类构造函数
-    Article.apply(this, arguments)u
+    Article.apply(this, arguments)
 }
 
 let post = new BlogPost('sams')
+console.log(BlogPost.prototype.constructor)
 console.log(post.title)
 console.log(post.getTitle)

@@ -7,3 +7,5 @@
      //子类原型指向父类原型
      C.prototype = P.prototype
  }
+
+ 
