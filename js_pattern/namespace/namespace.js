@@ -5,7 +5,7 @@ MYAPP.namespace = function(ns_string) {
 
     let parent = MYAPP
     if (parts[0] == 'MYAPP') {
-        parts.slice(0)
+        parts = parts.slice(1)
     }
 
     for (let i = 0; i < parts.length; i++) {
