@@ -1,0 +1,82 @@
+.hot-grally {
+    overflow: hidden;
+}
+
+.hot-grally .wrapper {
+    width: 580px;
+    float: left;
+    overflow: hidden;
+}
+
+.hot-grally .wrapper ul {
+    list-style-type: none;
+    float: left;
+}
+
+.hot-grally .wrapper ul#list {
+    width: 70%;
+    height: 375px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.hot-grally .wrapper ul#list li {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+
+.hot-grally .wrapper ul#list li img {
+    width: 100%;
+    height:100%;
+}
+
+ul#btns {
+    padding: 0;
+    width: 30%;
+    height: 375px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0
+}
+
+ul#btns li {
+    flex-grow: 1;
+}
+
+ul#btns li:hover {
+    cursor: pointer;
+}
+
+.one {
+    background: url(../images/txt_111.jpg) no-repeat center 100%;
+}
+
+.two {
+    background: url(../images/txt_222.jpg) no-repeat center 100%;
+}
+
+.three {
+    background: url(../images/txt_333.jpg) no-repeat center 100%;
+}
+
+.one:hover {
+    background: url(../images/txt_111_1.jpg) no-repeat center 100%;
+}
+
+.two:hover {
+    background: url(../images/txt_222_2.jpg) no-repeat center 100%;
+}
+
+.three:hover {
+    background: url(../images/txt_333_3.jpg) no-repeat center 100%;
+}
+
+.hot-grally .wrapper ul#list  .show {
+    visibility: visible;    
+}

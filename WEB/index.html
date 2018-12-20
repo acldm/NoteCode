@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/hot.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <img src="./images/logo.jpg">
+            </div>
+            <div class="phone">
+            </div>
+        </header>
+
+        <nav>
+            <div>首页</div>
+            <div>机构</div>
+            <div>少儿英语</div>
+            <div>成人英语</div>
+            <div>托福雅思</div>
+            <div>英语四级</div>
+            <div>英语六级</div>
+        </nav>
+
+        <div id="main_lbt" class="lbt">
+        </div>
+
+        <article>
+            <h3>学号英语网简介</h3>
+            <div class="art-img">
+                <img src="./images/learn.jpg" />
+            </div>
+            <div class="content">
+                <h4>你知道学好英语网吗？</h4>
+                <p>
+
+                    1、牢记词汇。
+
+                    学习一门外语，词汇是基础也是开始，所以能准确的拼读和默写单词很重要，除此之外，还要弄明白每个单词的意义和用法。
+
+                    2、掌握语法。
+
+                    语法是将词汇组织成句子的规则，学会了单词如果语法掌握不好，那么就无从谈句子和文章了，所以必要的语法知识是必须要牢记的。
+                    3、磨耳朵。
+                    学习语言的基本标准就是听说读写。因此练习听力至关重要，为了达到好的效果，就得花时间去练习听力，经常磨耳朵，时间长了，听到的内容就会被正确的反应在我们的大脑中了。
+                </p>
+            </div>
+        </article>
+
+        <div class="run">
+            <h6>环境展示</h6>
+            <div id="hjzs">
+                <ul class="hdt">
+                    <li><img src="./images/1.jpg" /></li>
+                    <li><img src="./images/2.jpg" /></li>
+                    <li><img src="./images/3.jpg" /></li>
+                    <li><img src="./images/1.jpg" /></li>
+                    <li><img src="./images/2.jpg" /></li>
+                    <li><img src="./images/3.jpg" /></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <article>
+            <h3>英语课程特色</h3>
+            <div>
+                <div class="hot-grally">
+                    <div class="wrapper">
+                        <ul id="list">
+                            <li><img src="./images/111.jpg" /></li>
+                            <li><img src="./images/222.JPG" /></li>
+                            <li><img src="./images/333.JPG" /></li>
+
+                        </ul>
+                        <ul id="btns">
+                            <li class="one"></li>
+                            <li class="two"></li>
+                            <li class="three"></li>
+                        </ul>
+                    </div>
+
+                    <div class="register">
+                        <img src="./images/zhuce.jpg" />
+                        <div>
+                            <label>姓名:</label>
+                            <input type="text" />
+                        </div>
+                        <div>
+                            <label>手机:</label>
+                            <input type="text" />
+                        </div>
+                        <div>
+                            <label>邮箱:</label>
+                            <input type="text" />
+                        </div>
+                        <div>
+                            <label>中心:</label>
+                            <select>
+                                <option>请选择学习中心</option>
+                            </select>
+                        </div>
+                        <a class="pos" href="#">
+                            <img src="./images/btn.jpg" />
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </article>
+
+    </div>
+</body>
+<script src="./js/hdt.js"></script>
+<script>
+    let hj = new Hdt("hjzs")
+    hj.start()
+
+    let lists = document.getElementById("list").children
+    let btns = document.getElementById("btns").children
+    console.log(btns)
+    let old = lists[0]
+    lists[0].className = "show"
+    for (let i = 0; i < btns.length; i++) {
+        btns[i].onmouseover = function () {
+            console.log('sss')
+            if (old) {
+                old.className = ""
+            }
+            lists[i].className = "show"
+
+            old = lists[i]
+        }
+    }
+
+</script>
+
+</html>

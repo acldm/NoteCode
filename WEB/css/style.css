@@ -1,0 +1,115 @@
+.wrapper {
+    width: 968px;
+    margin: 0 auto;
+    color: #808080;
+}
+
+
+header {
+    height: 32px;
+    line-height: 32pxx;
+    background: url(../images/logo.jpg) no-repeat top left;
+    background: url(../images/phone.jpg) no-repeat center right;
+}
+
+nav {
+    display: flex;
+    color: white;
+    background: #0373b9;
+}
+
+nav > div {
+    width: 108px;
+    flex-shrink: 0;
+    text-align: center;
+    line-height: 36px;
+    font-size: .8em;
+}
+
+nav > div:hover {
+    background: #25abff;
+    cursor: pointer;
+}
+
+.lbt {
+    width: 100%;
+    height: 580px;
+    background: url(../images/01.jpg) no-repeat center top;
+}
+article {
+    overflow: hidden;
+}
+article h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+    border-bottom: .3em solid #ececec;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+article .art-img {
+    width: 146px;
+    height: 146px;
+    float: left;
+}
+
+article .content {
+    float: left;
+    overflow: hidden;
+    width: 800px;
+    padding: 0 10px;
+    font-size: .8em;
+}
+
+article .content h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: orange;
+}
+
+
+div#hjzs {
+    overflow: hidden;
+}
+
+ul.hdt {
+    list-style: none;
+    display: flex;
+    position: relative;
+    padding: 0;
+}
+
+ul.hdt li {
+    float: left;
+    flex-shrink: 0;
+    margin-right: 12px;
+}
+
+ul.hdt li:first-child {
+    left: -10%;
+}
+
+
+.register {
+    float: left;
+    width: 388px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+
+.register img {
+    margin: 0 auto
+}
+
+.register div {
+    margin: 16px 0;
+}
+
+.register div input, .register div select {
+    width: 50%;
+}
