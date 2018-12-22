@@ -8,7 +8,6 @@ body {
     color: #808080;
 }
 
-
 header {
     height: 48px;
     line-height: 48px;
@@ -21,7 +20,7 @@ nav {
     background: #0373b9;
 }
 
-nav > div {
+nav>div {
     width: 108px;
     flex-shrink: 0;
     text-align: center;
@@ -29,7 +28,7 @@ nav > div {
     font-size: .8em;
 }
 
-nav > div:hover {
+nav>div:hover {
     background: #25abff;
     cursor: pointer;
 }
@@ -39,9 +38,11 @@ nav > div:hover {
     height: 580px;
     position: relative;
 }
+
 article {
     overflow: hidden;
 }
+
 article h3 {
     font-size: 1.2em;
     font-weight: normal;
@@ -70,7 +71,6 @@ article .content h4 {
     color: orange;
 }
 
-
 div#hjzs {
     overflow: hidden;
 }
@@ -92,7 +92,6 @@ ul.hdt li:first-child {
     left: -10%;
 }
 
-
 .register {
     width: 388px;
     height: 100%;
@@ -113,19 +112,19 @@ ul.hdt li:first-child {
 }
 
 .register div input, .register div select {
-    width: 50%; 
-    }
+    width: 50%;
+}
 
-    .linear-trans {
-        transition: left .5s linear;
-    }
+.linear-trans {
+    transition: left .5s linear;
+}
 
-    footer {
-        height: 42px;
-        line-height: 42px;
-        margin-top: 32px;
-        font-size: .8em;
-        color: white;
-        text-align: center;
-        background: #0373b9;
-    }
+footer {
+    height: 42px;
+    line-height: 42px;
+    margin-top: 32px;
+    font-size: .8em;
+    color: white;
+    text-align: center;
+    background: #0373b9;
+}

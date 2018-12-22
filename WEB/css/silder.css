@@ -1,38 +1,35 @@
 .silder {
     overflow: hidden;
+    height: 580px;
 }
 
 .silder ul:first-child {
-    position: relative;
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.silder-normal {
+    transition: left .5s linear;
+    position: relative;
     width: 100%;
     height: 100%;
-    word-spacing: -8px;
     display: flex;
     flex-direction: row;
 }
 
-.silder ul:first-child li {
+.silder-normal li {
     width: 100%;
     height: 100%;
     flex-shrink: 0;
 }
 
-
-.silder.normal ul:first-child {
-    transition: left .5s linear
-}
-
-.silder.shadow ul:first-child {
-    display: block;
-}
-
-.silder.shadow ul:first-child li {
-    transition: opacity .5s linear;
+.silder-shadow li {
     position: absolute;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
     left: 0;
     top: 0;
-    opacity: 1;
+    opacity: 0;
 }

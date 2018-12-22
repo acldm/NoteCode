@@ -28,7 +28,7 @@
             <div>英语六级</div>
         </nav>
 
-        <div id="main_lbt" class="lbt silder shadow">
+        <div id="main_lbt" class="silder">
             <ul>
                 <li class="img1"></li>
                 <li class="img2"></li>
@@ -135,6 +135,8 @@
 <script src="./js/hdt.js"></script>
 <script src="./js/silder.js"></script>
 <script>
+    let s = new Silder(document.getElementById("main_lbt"))
+    s.addPlugin(AutoPlay(1000))
 </script>
 
 </html>
