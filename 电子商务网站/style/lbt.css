@@ -1,0 +1,69 @@
+.mask-wrapper {
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    visibility: hidden;
+}
+.carousel-wrapper {
+    position: relative;
+    width: 80%;
+    max-width: 512px;
+    margin: 0 auto;
+}
+.carousel {
+    overflow: hidden;
+}
+
+.carousel  ul.img-list {
+    list-style: none;
+    color: wheat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    transition: left .5s linear;
+}
+
+.carousel  ul.img-list li {
+    width: 100%;
+    float: left;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.carousel  ul.img-list li img {
+    width: 100%;
+}
+
+ul.hot-btns {
+    list-style: none;
+    letter-spacing: -1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul.hot-btns li {
+    width: 12px;
+    height: 12px;
+    border: 1px solid white;
+    margin: -1px;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 0 2px;
+    cursor: pointer;
+    text-indent: -999em;
+}
+
+ul.hot-btns li.selected {
+    background: palevioletred;
+}

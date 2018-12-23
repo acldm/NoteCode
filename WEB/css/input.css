@@ -20,3 +20,7 @@
     text-indent: -999em;
     margin: 0 8px;
 }
+
+.hot-btn li.selected {
+    background: orange;
+}

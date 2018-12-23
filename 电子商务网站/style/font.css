@@ -1,0 +1,98 @@
+
+@font-face {
+    font-family: edo;
+    src: url(../font/edo.ttf);
+}
+
+@font-face {
+    font-family: DidactGothic-Regular;
+    src: url(../font/DidactGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(../font/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: TradeGothicLTStd-Bold;
+    src: url(../font/TradeGothicLTStd-Bold.otf);
+}
+
+.edo {
+    font-family: edo;
+}
+
+.DidactGothic {
+    font-family: DidactGothic-Regular;
+}
+
+.Helvetica {
+    font-family: Helvetica;
+}
+
+.Helvetica-italic {
+    font-family: Helvetica;
+    font-style: italic;
+}
+
+.TradeGothicLTStd {
+    font-family: TradeGothicLTStd-Bold;
+}
+
+
+html {
+    font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.inner {
+    font-family: TradeGothicLTStd;
+}
+
+.address {
+    font-size: 1.2rem;
+}
+
+.info {
+    font-weight: normal;
+    font-size: .8rem;
+}
+
+.content {
+    font-family: DidactGothic;
+}
+
+
+body .hg {
+    padding: 0;
+    padding-top: 1px;
+}
+
+.hg h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    overflow: hidden;
+}
+
+.hg h4 {
+    font-size: 2rem;
+}
+
+.hg .inner .float-layer {
+    overflow: hidden;
+}
+
+
+.contact.bs {
+    font-family: TradeGothicLTStd;
+}
+
+h2.title,h3 {
+    font-weight: bold;
+    font-family: "微软雅黑";
+    margin: 2rem 0;
+    color: black;
+}

@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    padding: .5rem 0;
+    letter-spacing: .2rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body>div {
+    padding: 3rem;
+}
+
+.head-wrapper {
+    background: #f29b2a;
+}
+
+.content {
+    line-height: 1.5em;
+    letter-spacing: .05rem;
+    overflow: hidden;
+}
+
+.show-list {
+    margin: 0 auto;
+}
+
+.contact {
+    padding: 3rem 0;
+    color: #f29b2a;
+}
+
+.contact .row {
+    padding: 1rem 0;
+}
+
+.footer-wrapper {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+}
+
+a:link, a:hover, a:active, a:visited {
+    color: inherit;
+}
+
+.content .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#stage {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+.show-btn .btn {
+    background: #f29b2a;
+}
+
+nav {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem 0;
+    word-spacing: -8px;
+    font-weight: bold;
+}
+
+nav span {
+    display: inline-block;
+    width: 4rem;
+    cursor: pointer;
+}
+
+nav span:hover {
+    color: white;
+    background: black
+}
+
+.ind2 {
+    text-indent: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    color: #f29b2a;
+}
+
+.card-list .card  {
+    padding: .5rem;
+    color: black;
+    text-align: center;
+    box-shadow: 0 0 1rem;
+    border-radius: 2%;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.card-list .card:hover {
+    box-shadow: 0 0 2rem;
+}
+
+.card-list .card img {
+    width: 100%;
+}
+
+.droplist {
+    position: relative;
+}
+
+.droplist:hover > ul {
+    visibility: visible
+}
+
+.droplist > ul {
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    visibility: hidden;
+    z-index: 999;
+    box-shadow: 0 0 4rem black;
+}
+
+.droplist > ul > li {
+    border-top: 1px solid white;
+    background: black;
+
+}
+
+.droplist > ul > li:hover {
+    background: orange;
+    box-shadow: 0 0 4rem white;
+}
+
+.bg-wrapper {
+    background: #f29b2a;
+}
+
+.shop-card {
+    text-align: center;
+}
+
+.shop-card strong {
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.shop-card img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.shop-card img:hover {
+    border: 20px solid #9c27b0;
+    border-image: url(../img//border.png) 30 30 round;
+    background: rgba(0, 0, 0, 0)
+}
+
+.define-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    font-size: .9rem;
+}
+
+.define-list li:first-child {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.float-form {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    padding: 0;
+}
+
+.float-block {
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border: 1px solid #9c27b0;
+    background: #9c27b0;
+    color: white;
+    cursor: pointer;
+    opacity: .75;
+    overflow: hidden;
+}
+
+.float-block#to_top {
+}
+
+.float-block img {
+    width: 80%;
+    height: 80%;
+}
+
+.float-block:hover {
+    background: black;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,50 @@
+button,input {
+    outline: none;
+}
+
+button.l-btn {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0 .6rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    font-size: .6rem;
+    background: white;
+}
+
+button.l-btn:hover {
+    background: #efefef;
+}
+
+button.l-btn.large {
+    width: 100%;
+    font-size:1.2rem;
+    font-weight: bold;
+    color: black;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+button.l-btn.orange {
+    background: #f29b2a;
+    border: 1px solid #f29b2a;
+    color: white;
+}
+
+input[type="text"], input[type="password"] {
+    display: block;
+    width: 100%;
+    line-height: 2rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    width: 100%;
+    min-height: 12rem;
+    min-width: 100%;
+    max-width: 100%;
+    outline: none;
+    padding: 5%;
+}

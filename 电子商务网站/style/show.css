@@ -1,0 +1,67 @@
+.show {
+
+}
+
+.show .gallery-list {
+    padding: 0;
+}
+
+.show .gallery-list img{
+    width: 90%;
+    cursor: pointer;
+    margin-bottom: 10%;
+} 
+
+.big-img {
+    width: 100%;
+    height: 100%;
+}
+
+.show-info h4 {
+    text-align: left;
+}
+
+.show-info div.price {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.show-option {
+    white-space: nowrap;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.show-option label {
+    display: block;
+    color: #aaa;
+    font-size: .8rem;
+}
+
+.show-option button {
+    margin: 0;
+    display: inline-block;
+}
+
+.show-option input[type="text"] {
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 3rem;
+    height: 1.4rem;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.number-control > * {
+    float: left;
+}
+
+.show-detail h3 {
+    text-align: left;
+    padding-left: 2rem;
+    border-left: 1rem solid #f29b2a;
+}

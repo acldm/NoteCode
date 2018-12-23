@@ -34,11 +34,6 @@
                 <li class="img2"></li>
                 <li class="img3"></li>
             </ul>
-            <ul class="hot-btn">
-                <li>a</li>
-                <li>b</li>
-                <li>c</li>
-            </ul>
         </div>
         <button id="abc">next</button>
 
@@ -83,7 +78,7 @@
             <h3>英语课程特色</h3>
             <div>
                 <div class="hot-grally">
-                    <div class="wrapper">
+                    <div class="wrapper" id="nlist">
                         <ul id="list">
                             <li><img src="./images/111.jpg" /></li>
                             <li><img src="./images/222.JPG" /></li>
@@ -137,6 +132,14 @@
 <script>
     let s = new Silder(document.getElementById("main_lbt"))
     s.addPlugin(AutoPlay(1000))
+    s.addPlugin(HotBtn('hot-btn'))
+
+    let m = new Silder(document.getElementById("nlist"), Silder.Animate.Fade)
+    m.addPlugin(AutoPlay(1000))
+    m.addPlugin(Nav("btns"))
+
+    let hdt = new Hdt('hjzs')
+    hdt.start()
 </script>
 
 </html>

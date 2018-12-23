@@ -1,0 +1,56 @@
+.detail-list h3 {
+    border-left: 1rem solid #f29b2a;
+    
+}
+
+.detail-list .detail-card {
+    color: black;
+    cursor: pointer;
+}
+
+.detail-list .detail-card p {
+    border-bottom: 1px solid #efefef;
+}
+
+.detail-list .detail-card h6 {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.detail-list .detail-card span {
+    font-size: .7rem;
+}
+
+.detail-list .detail-card img {
+    width: 100%;
+    height: 100%;
+}
+
+ul.paging {
+    text-align: center;
+}
+
+ul.paging li {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-top: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    float: left;
+    cursor: pointer;
+}
+
+ul.paging li:hover {
+    background: black;
+    color: white;
+}
+
+ul.paging li.selected {
+    background: #f29b2a;
+    color: white;
+}
+
+ul.paging li:last-child {
+    border-right: 1px solid #efefef;
+}

@@ -1,0 +1,18 @@
+.login {
+    padding: 1rem;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0  0 .2rem black;
+
+}
+
+.login h2 {
+    margin-bottom: 2rem;
+}
+
+.login .l-btn {
+    margin-bottom: 1rem;
+}
+
+.content {
+    padding-bottom: 4rem;
+}
